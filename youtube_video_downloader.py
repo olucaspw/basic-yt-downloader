@@ -23,7 +23,7 @@ print('YOUTUBE VIDEO DOWNLOADER')
 url = str(input('{}Enter a URL: {}'.format(C_INDIANRED1, NO_FORMAT)))
 #####
 
-#Youtube funcition var
+#pytube shortcut
 youtube = pytube.YouTube(url)
 #####
 
